@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    name: Builds everything
+    steps:
+      - uses: actions/checkout@v2
+      - uses: lyze237/build-libgdx-project-action@master
+        with:
+          build-lwjgl3: 'true'
