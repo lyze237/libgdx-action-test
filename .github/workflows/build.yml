@@ -9,3 +9,4 @@ jobs:
       - uses: lyze237/build-libgdx-project-action@main
         with:
           build-lwjgl3: 'true'
+          
