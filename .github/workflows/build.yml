@@ -10,4 +10,3 @@ jobs:
         with:
           build-lwjgl3: 'true'
         
-      
