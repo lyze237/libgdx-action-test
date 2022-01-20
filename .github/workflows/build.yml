@@ -6,6 +6,6 @@ jobs:
     name: Builds everything
     steps:
       - uses: actions/checkout@v2
-      - uses: lyze237/build-libgdx-project-action@master
+      - uses: lyze237/build-libgdx-project-action@main
         with:
           build-lwjgl3: 'true'
